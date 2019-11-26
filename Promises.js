@@ -1,4 +1,4 @@
-function promisTest() {
+function promiseTest() {
     let test1 = false;
     let test2 = true;
     return new Promise((resolve, reject) => {
@@ -17,7 +17,7 @@ function promisTest() {
       }
     })
   }
-  promisTest().then(message => {
+  promiseTest().then(message => {
     console.log('Success' + message);
   }).catch((error) => {
     console.log(error.name + ' ' + error.message);
