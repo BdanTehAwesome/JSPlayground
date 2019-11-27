@@ -11,14 +11,14 @@ const items = [
     {name: 'Test10', quantity: -30},
 ]
 
-const filterItems = items.filter((item) =>{
+const filterItems = items.filter((item) => {
     return item.quantity <=50;
 })
 console.log('******** Filtered Array **********');
 console.log(filterItems);
 console.log('**********************************');
 
-const mapItems = items.map((item) =>{
+const mapItems = items.map((item) => {
     return item.name;
 })
 console.log('******** Map Array *********************');
