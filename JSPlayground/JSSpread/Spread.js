@@ -6,3 +6,6 @@ const [a,,c, ...everythingElse] = numArray ;
 console.log(a);
 console.log(c);
 console.log(everythingElse);
+
+const combinedArrays = [...numArray,...alphaArray];
+console.log(combinedArrays);
