@@ -29,7 +29,7 @@ console.log(rest);
 
 //Pass this method an object parameters are auto assigned - pretty cool :)
 function printUser({name, age, favfood = 'Pie'}) { 
-    console.log(`Name is: ${name}. Age is ${age}. Food is ${favfood}`);
+    console.log(`Name is: ${name}. Age is ${age}. Food is ${favfood}`);// <--use template literals to bind js vars to a string
 }
 printUser(personOne)
 printUser(personTwo)
